@@ -30,7 +30,7 @@ export function run(container, quillOptions) {
         modules: {
             toolbar: {
                 container: [
-                    [{ ssml_break: ['x-weak', 'weak', 'medium', 'strong', 'x-strong', 'none'] }],
+                    [{ ssml_break: ['250ms', '500ms', '750ms', '1s'] }],
                     ['ssml_emphasis'],
                     [{ ssml_gender: ['Female', 'Male', 'Neutral'] }],
                     [{ ssml_language: ['en-US', 'en-GB', 'de-DE', 'es-ES', 'fr-FR', 'it-IT', 'nl-NL', 'ru-RU', 'tr-TR'] }],
@@ -38,7 +38,7 @@ export function run(container, quillOptions) {
                     [{ ssml_date: ['mdy', 'dmy', 'ymd', 'md', 'dm', 'ym', 'my', 'd', 'm', 'y'] }],
                     ['ssml_substitute'],
                     ['ssml_phoneme'],
-                    [{ ssml_prosody: ['x-slow', 'slow', 'medium', 'fast', 'x-fast', 'default'] }],
+                    [{ ssml_prosody: ['25%', '50%', '75%', '100%', '125%'] }],
                     ['ssml_validate'],
                 ],
                 handlers: {

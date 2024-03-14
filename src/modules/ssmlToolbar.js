@@ -99,6 +99,8 @@ class SsmlToolbar extends Module {
                     this.quill.insertText(range.index, '<say-as interpret-as="date" format="' + value + '">');
                     this.quill.setSelection(range.index + range.length + value.length + 47);
                 }
+            } else {
+                this.quill.insertText('<say-as interpret-as="date" format=""></say-as>');
             }
         }
 
@@ -111,6 +113,8 @@ class SsmlToolbar extends Module {
                     this.quill.insertText(range.index, '<emphasis level="strong">');
                     this.quill.setSelection(range.index + range.length + 36);
                 }
+            } else {
+                this.quill.insertText('<emphasis level="strong"></emphasis>');
             }
         }
 
@@ -136,6 +140,8 @@ class SsmlToolbar extends Module {
                     this.quill.insertText(range.index, '<lang xml:lang="' + value + '">');
                     this.quill.setSelection(range.index + range.length + value.length + 25);
                 }
+            } else {
+                this.quill.insertText('<lang xml:lang=""></lang>');
             }
         }
 
@@ -148,6 +154,8 @@ class SsmlToolbar extends Module {
                     this.quill.insertText(range.index, '<prosody rate="' + value + '">');
                     this.quill.setSelection(range.index + range.length + value.length + 25);
                 }
+            } else {
+                this.quill.insertText('<prosody rate=""></prosody>');
             }
         }
 
@@ -181,6 +189,8 @@ class SsmlToolbar extends Module {
                     this.quill.insertText(range.index, '<say-as interpret-as="' + value + '">');
                     this.quill.setSelection(range.index + range.length + value.length + 33);
                 }
+            } else {
+                this.quill.insertText('<say-as interpret-as=""></say-as>');
             }
         }
 
