@@ -1,6 +1,6 @@
 {
     "name": "ssml-editor",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "An SSML editor that accepts plain text and allows you to mark up with SSML.",
     "main": "index.js",
     "scripts": {

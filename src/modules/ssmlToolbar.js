@@ -163,7 +163,7 @@ class SsmlToolbar extends Module {
             if (value) {
                 const cursorPosition = this.quill.getSelection().index;
 
-                this.quill.insertText(cursorPosition, '<break strength="' + value + '"/>');
+                this.quill.insertText(cursorPosition, '<break time="' + value + '"/>');
                 this.quill.setSelection(cursorPosition + value.length + 20);
             }
         }
