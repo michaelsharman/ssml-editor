@@ -1,5 +1,5 @@
 import Quill from 'quill/core/quill';
-import * as ssmlCheck from 'ssml-check';
+import * as ssmlCheck from '@caspingus/ssml-check';
 
 const Module = Quill.import('core/module');
 

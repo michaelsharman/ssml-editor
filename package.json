@@ -1,5 +1,5 @@
 {
-    "name": "ssml-editor",
+    "name": "@caspingus/ssml-editor",
     "version": "0.1.1",
     "description": "An SSML editor that accepts plain text and allows you to mark up with SSML.",
     "main": "index.js",
@@ -11,12 +11,11 @@
     "keywords": [
         "ssml"
     ],
-    "author": "",
     "license": "MIT",
     "dependencies": {
+        "@caspingus/ssml-check": "^0.4.6",
         "buffer": "^6.0.3",
         "quill": "^2.0.0-rc.2",
-        "ssml-check": "github:michaelsharman/ssml-check",
         "stream-browserify": "^3.0.0",
         "string_decoder": "^1.3.0"
     },
